@@ -1,0 +1,26 @@
+{
+  "name": "webrtc-sample",
+  "version": "1.0.0",
+  "description": "WebRTC Sample",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "keywords": [
+    "webrtc"
+  ],
+  "author": "Alexander Klingenbeck",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3",
+    "webrtc-adapter": "^6.3.0"
+  }
+}
